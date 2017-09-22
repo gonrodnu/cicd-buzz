@@ -13,7 +13,7 @@ def generate_buzz():
            '<head><link rel="stylesheet" href="/resources/blockquote.css"></head>' \
            '<body style="background-color:powderblue;"><blockquote>'
     page += generator.generate_buzz()
-    page += '</blockquoute></body></html>'
+    page += '</blockquote></body></html>'
     return page
 
 @app.route('/resources/<path:path>')
